@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICDC Masjid | Islamic Center of Delaware County</title>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <link rel="icon" href="content/favIcon.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Website Is In Development</h1>
+    <section id="landingContent">
+        <nav>
+            <div class="container">
+                <div class="row navigationContent">
+                    <a href="index.html" class="logoContainer logo"> ICDC</a>
+                    <div class="navigationLinks">
+                        <a href="#donate" class="navigationLink customDonate">Donate Now</a>
+                        <a href="#aboutUs" class="navigationLink">About Us</a>
+                        <a href="#services" class="navigationLink">Services</a>
+                        
+                        <a href="#contactUs" class="navigationLink">Contact Us</a>
+                        <!-- <a href="mailto:mrafat101@gmail.com?Subject=Service Request" class="navigationLink customContact">Get In Contact</a> -->
+                    </div>
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="#aboutUs" class="menu__link aboutUsLink" onclick="closeMenu()">About Us</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#services" class="menu__link servicesLink" onclick="closeMenu()">Services</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="mailto:mrafat101@gmail.com?Subject=Service Request" class="menu__link contactUsLink" onclick="closeMenu()">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
 </body>
 </html>
