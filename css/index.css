@@ -109,7 +109,8 @@ body{
 /**************************************NAVIGATION SECTION************************************************/
 
 nav{
-    background-color:#007db6;
+    /* background-color:#007db6; */
+    background-color: #1a4f77;
     position:fixed;    
     width:100%;
     top:0;
