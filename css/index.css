@@ -102,6 +102,10 @@ body{
     height:2000px;
 }
 
+.defaultFontSize{
+    font-size: 18px;
+}
+
 /**************************************NAVIGATION SECTION************************************************/
 
 nav{
@@ -259,18 +263,49 @@ nav{
 
 .newsEvents{
     width:64%;
-    min-width:400px;
+    min-width:350px;
     height:500px;
     border:solid 2px red;
 }
 
 .prayerSchedule{
     width:32%;
-    min-width: 400px;
+    min-width: 350px;
     height:500px;
     border:solid 2px green;
 }
 
 .prayerLogo{
     width:50px;
+}
+
+/**************************************ABOUT US SECTION************************************************/
+#aboutUs{
+    margin-top: 20px;
+
+}
+
+.aboutusContent{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutusHeader{
+    text-align: center;
+}
+
+.aboutUsDescriptionSection{
+    width:48%;
+    min-width: 350px;
+    border: solid 2px red;
+    padding-top:100px;
+}
+
+.googleMap{
+    width:48%;
+    min-width: 350px;
+    border:solid 2px purple;
+    height:450px;
 }
