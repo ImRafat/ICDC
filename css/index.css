@@ -109,8 +109,8 @@ body{
 /**************************************NAVIGATION SECTION************************************************/
 
 nav{
-    /* background-color:#007db6; */
-    background-color: #1a4f77;
+    /* background-color: #1a4f77; */
+    background-color: white;
     position:fixed;    
     width:100%;
     top:0;
@@ -132,7 +132,7 @@ nav{
     max-width:200px;
     max-height:100px;  
     font-size: 50px;
-    color:white;
+    color:#00A693;
     font-weight: bold;      
 }
 
@@ -143,7 +143,8 @@ nav{
 .navigationLink{
     padding:24px;
     font-size: 16px;
-    color: white;
+    color: black;
+    font-weight: bold;
     -webkit-transition: ease 200ms;
 }
 
@@ -153,16 +154,18 @@ nav{
 
 .customDonate{
     /* background-color: #ff8b07; */
-    background-color: #ffcc00;
-    color:black;
+    /* background-color: #ffcc00; */
+    background-color:#00A693;;
+    color:white;
     font-weight: bold;
     padding:19.2px;
-    border-radius: 32px;
+    /* border-radius: 32px; */
+    border-radius: 12px;
     -webkit-transition: ease 200ms;
 }
 
 .customDonate:hover{
-    background-color: #ffcc00;
+    background-color: #89CFF0;
     color: white;
 }
 
