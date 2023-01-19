@@ -152,8 +152,9 @@ nav{
 }
 
 .customDonate{
-    background-color: #ff8b07;
-    color: white;
+    /* background-color: #ff8b07; */
+    background-color: #ffcc00;
+    color:black;
     font-weight: bold;
     padding:19.2px;
     border-radius: 32px;
@@ -162,7 +163,7 @@ nav{
 
 .customDonate:hover{
     background-color: #ffcc00;
-    color: black;
+    color: white;
 }
 
 .btn__menu{
@@ -258,7 +259,8 @@ nav{
 
 .landingThemeContent{
     display: flex;  
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -267,6 +269,7 @@ nav{
     min-width:350px;
     height:500px;
     border:solid 2px red;
+    padding:20px;
 }
 
 .prayerSchedule{
@@ -274,6 +277,7 @@ nav{
     min-width: 350px;
     height:500px;
     border:solid 2px green;
+    padding:20px;
 }
 
 .prayerLogo{
@@ -283,14 +287,14 @@ nav{
 /**************************************ABOUT US SECTION************************************************/
 #aboutUs{
     margin-top: 20px;
-
+    background-color: #1799e7;
 }
 
 .aboutusContent{
     display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .aboutusHeader{
@@ -301,7 +305,17 @@ nav{
     width:48%;
     min-width: 350px;
     border: solid 2px red;
-    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+    color:white;
+}
+
+.aboutUsDescription{
+    line-height: 1.5;
+    padding-top:10px;
+    padding-left: 10px;    
 }
 
 .googleMap{
@@ -309,4 +323,5 @@ nav{
     min-width: 350px;
     border:solid 2px purple;
     height:450px;
+    padding:0 20px;
 }
