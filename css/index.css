@@ -289,8 +289,9 @@ nav{
 
 /**************************************ABOUT US SECTION************************************************/
 #aboutUs{
-    margin-top: 20px;
-    background-color: #1799e7;
+    /* background-color: #FFFFF0; */
+    /* background-color: #f0faf3; */
+    background-color: rgb(240,250,243,.3);
 }
 
 .aboutusContent{
@@ -307,12 +308,11 @@ nav{
 .aboutUsDescriptionSection{
     width:48%;
     min-width: 350px;
-    border: solid 2px red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding:20px;
-    color:white;
+    /* color:white; */
 }
 
 .aboutUsDescription{
@@ -324,7 +324,6 @@ nav{
 .googleMap{
     width:48%;
     min-width: 350px;
-    border:solid 2px purple;
     height:450px;
-    padding:0 20px;
+    padding:20px 20px;
 }
