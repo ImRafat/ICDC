@@ -269,15 +269,15 @@ nav{
 .newsEvents{
     width:64%;
     min-width:350px;
-    height:500px;
+    height:525px;
     border:solid 2px red;
-    padding:20px;
+
 }
 
 .prayerSchedule{
     width:32%;
     min-width: 350px;
-    height:500px;
+    height:525px;
     border:solid 1px #E6ECF8;
     border-radius: 10px;
     padding:1%;
@@ -349,13 +349,31 @@ nav{
     background-color: rgb(240,250,243,1);
 }
 
+.jumuahHeader{
+    text-align: center;
+    color: #00A693;
+}
+
+.jumuahSchedule{    
+    border:solid 1px #e6ecf8;
+}
+
+.jumuahSection{
+    display:flex;
+    justify-content: space-between;
+    padding:1% 2%;
+    font-weight: 800;
+}
+
+
+
 /**************************************ABOUT US SECTION************************************************/
 #aboutUs{
     /* background-color: #FFFFF0; */
     /* background-color: #f0faf3; */
     background-color: rgb(240,250,243,.3);
     border-radius: 40px 40px 0 0;
-    margin:20px 0;
+    margin:20px 1%;
 }
 
 .aboutusContent{
@@ -375,7 +393,8 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:20px;
+    padding:1%;
+    text-align: left;
     /* color:white; */
 }
 
