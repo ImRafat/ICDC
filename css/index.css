@@ -173,12 +173,12 @@ nav{
     font-size: 40px;
     text-align:center;
     border:none;
-    color:#7342d6;
+    color:#00A693;
     display: none;
 }
 .menu__backdrop{
     position:absolute;
-    background-color: #242424;
+    background-color: rgb(0,166,147,1);
     top:0;
     left:0;
     bottom: 0;
@@ -271,7 +271,7 @@ nav{
     min-width:350px;
     height:525px;
     border:solid 2px red;
-
+    margin:3% 1%;
 }
 
 .prayerSchedule{
@@ -283,7 +283,7 @@ nav{
     padding:1%;
     /* box-shadow:  2px 5px 0px rgb(240,250,243,.7); */
     box-shadow: 0px 2px 5px 0px #e6ecf8;
-    margin-left: 10px;
+    margin:3% 1%;
 }
 
 .prayerLogo{
@@ -409,4 +409,75 @@ nav{
     min-width: 350px;
     height:450px;
     padding:20px 20px;
+}
+
+/*****************************************MEDIA QUERIES*****************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+
+@media(max-width:861px){
+
+    .logoLarge{
+        display:none;        
+    }
+
+    .footerLogoLarge{
+        display:none;        
+    }
+
+   .logoSmall{
+        display: block;
+        position: absolute;
+        left:0px;        
+        top:34px;
+        padding-left: 20px;        
+    } 
+
+    .footerLogoSmall{
+        display: block;
+        
+    } 
+
+    .navigationContent{
+        display: flex;
+        justify-content: start;
+        justify-content: space-between;
+    }
+
+    .navigationLink{
+        display:none;
+    }
+
+    .btn__menu{
+        display: block;
+    }
+
+    .highlight:not(:last-child){
+        width:100%;
+        margin-bottom: 24px;
+    }
+
+    .highlight__wrapper{
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        width:150px;
+    }
+
+    /****ABOUT ME SECTION****/
+    .cardWrapperContainer{
+        margin-top: -300px;
+    }
+
+    .experience:hover .experiencePicture{
+        transform: scale(1);
+        transition:ease-out 200ms; 
+   } 
 }
