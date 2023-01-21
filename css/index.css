@@ -6,7 +6,7 @@
     box-sizing:border-box;
     font-family: 'Roboto',sans-serif;
     scrollbar-width: 12px;
-    scrollbar-color: #141c3a white;
+
 }
 
 *::-webkit-scrollbar {
@@ -26,7 +26,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #89CFF0;    
+    background-color: #00A693;    
     border-radius: 1px;       
 }
 
@@ -97,7 +97,6 @@ button{
     cursor:pointer;
 }
 
-
 body{
     height:2000px;
 }
@@ -155,7 +154,7 @@ nav{
 .customDonate{
     /* background-color: #ff8b07; */
     /* background-color: #ffcc00; */
-    background-color:#00A693;;
+    background-color:#00A693;
     color:white;
     font-weight: bold;
     padding:19.2px;
@@ -279,12 +278,75 @@ nav{
     width:32%;
     min-width: 350px;
     height:500px;
-    border:solid 2px green;
-    padding:20px;
+    border:solid 1px #E6ECF8;
+    border-radius: 10px;
+    padding:1%;
+    /* box-shadow:  2px 5px 0px rgb(240,250,243,.7); */
+    box-shadow: 0px 2px 5px 0px #e6ecf8;
+    margin-left: 10px;
 }
 
 .prayerLogo{
     width:50px;
+}
+
+.sunrise{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border:solid 1px #e6ecf8;
+    font-weight:800;
+    
+}
+
+.logoPrayer{
+    display:flex;
+    align-items: center;
+    width:140px;
+    /* border: solid 2px red; */
+}
+
+.prayerColumnHeaders{
+    
+    display:flex;
+    justify-content: space-around;
+    font-weight:bold;
+    margin: 10px 0px;
+    color:#00A693;
+}
+
+.prayerName{
+    padding-left:10px;
+}
+
+.prayerTime{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+    border-radius: 15px;
+    border:solid 1px #e6ecf8;
+    margin: 10px 0px;
+    /* background-color: rgb(240,250,243,1); */
+}
+
+.beginsHeader{
+    padding-left: 40px;
+}
+
+
+.begins{
+    padding-right:20px;
+}
+
+.iqamah{
+    padding-right:5px;
+}
+
+.ishaPrayer{
+    background-color: rgb(240,250,243,1);
 }
 
 /**************************************ABOUT US SECTION************************************************/
@@ -292,6 +354,8 @@ nav{
     /* background-color: #FFFFF0; */
     /* background-color: #f0faf3; */
     background-color: rgb(240,250,243,.3);
+    border-radius: 40px 40px 0 0;
+    margin:20px 0;
 }
 
 .aboutusContent{
