@@ -164,8 +164,8 @@ nav{
 }
 
 .customDonate:hover{
-    background-color: #89CFF0;
-    color: white;
+    background-color: rgb(240,250,120,.8);
+    color: black;
 }
 
 .btn__menu{
