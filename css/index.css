@@ -71,7 +71,7 @@ li{
     flex-direction: column;
     padding:0 30px;
     line-height: 1.5;
-    padding-top:100px;
+    padding-top:110px;
 }
 
 .sectionHeader{    
@@ -139,6 +139,7 @@ nav{
     font-size: 16px;
     color: black;
     font-weight: bold;
+    transition:ease 200ms;
     -webkit-transition: ease 200ms;
 }
 
@@ -155,6 +156,7 @@ nav{
     padding:19.2px;
     /* border-radius: 32px; */
     border-radius: 12px;
+    transition:ease 200ms;
     -webkit-transition: ease 200ms;
 }
 
@@ -199,6 +201,7 @@ nav{
     /*display: none;*/
     visibility: hidden;
     opacity:0;
+    transition:all 300ms ease;
     -webkit-transition: all 300ms ease;
     max-width: 60%;
 }
@@ -206,6 +209,7 @@ nav{
     display:flex;
     visibility: visible;
     opacity: 1;
+    transform:translateX(70%);
     -webkit-transform: translateX(70%);
     position: fixed;
 }
@@ -227,6 +231,7 @@ nav{
 
 .menu__link{
     color:white;
+    transition: ease-out 200ms;
     -webkit-transition: ease-out 200ms;
 }
 
@@ -381,7 +386,6 @@ nav{
     background: linear-gradient(to top,rgb(240,250,243,.1),rgb(240,250,243,.4), rgb(240,250,243,.7), rgb(240,250,243,1));
     border-radius: 40px 40px 0 0;
     margin:20px 1%;
-    padding:
 }
 
 .aboutusContent{
