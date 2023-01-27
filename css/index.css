@@ -439,13 +439,6 @@ nav{
     padding-right:10px
 }
 
-.googleMap{
-    width:48%;
-    min-width: 350px;
-    height:450px;
-    padding:20px 20px;
-}
-
 /*******************************************************DONATE SECTION************************************/
 
 #donate{
@@ -478,6 +471,18 @@ nav{
     font-weight: 600;
     width:100%;
     max-width:350px;
+}
+
+.donatebyCheck{
+    margin-top:40px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    width:100%;
+    max-width:340px;
 }
 
 
@@ -625,6 +630,27 @@ footer{
 
 .footerLogo{
     filter: invert(99%) sepia(3%) saturate(403%) hue-rotate(199deg) brightness(117%) contrast(100%);
+}
+
+.googleMap{
+    width:48%;
+    min-width: 350px;
+    height:250px;
+    padding:20px 20px;
+}
+
+.footerContent{
+    display:flex;
+    flex-direction: row;
+    border:solid 2px red;
+}
+
+.footerContactInfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    border:solid 2px red;
+    color:white;
 }
 
 
