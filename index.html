@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICDC Masjid | Islamic Center of Delaware County</title>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <!-- <script src="./js/swiper-bundle-esm-browser-min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/app.js"></script>
+
+
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle-min.css">
     <link rel="icon" href="content/favIcon.png" type="image/x-icon">
 </head>
 <body>    
@@ -52,7 +57,20 @@
         <div class="landingTheme">
             <div class="container">
                 <div class="landingThemeContent row">
-                    <div class="newsEvents">Events, hadiths and news will go here.</div>
+                    <div class="swiper">
+                          <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                          </div>
+                          <!-- If we need pagination -->
+                          <div class="swiper-pagination"></div>
+                        
+                          <!-- If we need navigation buttons -->
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-button-next"></div>                        
+                    </div>                    
                     <div class="prayerSchedule">
                         <ul class="sunrise">
                             <li class="logoPrayer"><img src="./content/sunrise.png" alt="sunrise logo" class="prayerLogo"> <span class="prayerName">Sunrise</span> </li>
@@ -237,6 +255,16 @@
                         <li><img src="./content/mail.png" alt="mail logo">krahman@comcast.net</li>
                         <li><img src="./content/location.png" alt="mail logo">2502 Township Line Road, Havertown, PA 19083</li>           
                     </div>
+                    <div class="footerQuickLinks">
+                        <h1>Quick Links</h1>
+                        <div class="footerLinks">
+                            <a href="#aboutUs" class="footerLink">About Us</a>
+                            <a href="#services" class="footerLink">Services</a>
+                            <a href="#status" class="footerLink">Construction Status</a>
+                            <a href="#footer" class="footerLink">Contact Us</a> 
+                            <a href="#donate" class=" footerLink">Donate</a>    
+                        </div>  
+                    </div>
                     <div class="footerMap">
                         <iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.9485091985443!2d-75.30030200875518!3d39.966055096927334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c1a6114e29ed%3A0x26e389362d5fd0fe!2s2502%20Township%20Line%20Rd%2C%20Havertown%2C%20PA%2019083!5e0!3m2!1sen!2sus!4v1673996337886!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -244,6 +272,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
