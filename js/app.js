@@ -15,10 +15,10 @@ $( document ).ready(function() {
     pagination: {
       el: '.swiper-pagination',
     },
-    autoplay:{
-      delay: 4000,
-      disableOnInteraction: true,
-    },
+    // autoplay:{
+    //   delay: 4000,
+    //   disableOnInteraction: true,
+    // },
   
     // Navigation arrows
     navigation: {
