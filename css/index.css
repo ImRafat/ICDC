@@ -876,7 +876,7 @@ footer{
         display:block;
         display:flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center;        
     }
 
     .highlight:not(:last-child){
