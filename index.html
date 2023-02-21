@@ -59,23 +59,29 @@
                     <div class="swiper">
                           <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide firstSlide">
+                            <div class="swiper-slide firstSlide" id="firstSlide" >
                                 <img src="./content/mosque2.jpg" alt="mosque picture" class="sliderImage">
                                 <div class="firstSlideContent">
                                     <h1>Hadith</h1>
-                                    <p class="hadith">
-                                    </p>
+                                    <p class="hadith" id="hadith"></p>
+                                    
                                 </div>
                             </div>
-                            <div class="swiper-slide secondSlide">Second Slide.</div>
+                            <div class="swiper-slide secondSlide" id="secondSlide">
+                                <div class="secondSlideContent">
+                                    <h1>Hmmm</h1>
+                                    <p class="hadith2" id="hadith2"></p>
+                                    
+                                </div>
+                            </div>
 
                           </div>
                           <!-- If we need pagination -->
                           <div class="swiper-pagination"></div>
                         
                           <!-- If we need navigation buttons -->
-                          <div class="swiper-button-prev swiperArrows"></div>
-                          <div class="swiper-button-next swiperArrows"></div>                        
+                          <div class="swiper-button-prev swiperArrows" id="buttonPrevious"></div>
+                          <div class="swiper-button-next swiperArrows" id="buttonNext" onClick="return false;"></div>                        
                     </div>                    
                     <div class="prayerSchedule">
                         <ul class="sunrise">
